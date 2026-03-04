@@ -102,7 +102,7 @@ export default function Home() {
             <div className="relative">
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663357909245/TxrBZRuK2k3L64oYDUsoQ2/temotio_lifestyle_hero-cv88CNyTVFaPjHyYytB2a5.webp"
+                  src="https://scontent.fbfh21-1.fna.fbcdn.net/v/t39.30808-6/632248501_1627283618443681_3753583563430705144_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=3q8zkMvT32wQ7kNvwHESlb_&_nc_oc=AdlW0J67AAx6_FilSZ4N-t6VA_38iLdsuwu84HRvTDC7sRQzK9pQXlNN5fV427J_1R_O0ZbTCcsUH_Tn4joh2c-7&_nc_zt=23&_nc_ht=scontent.fbfh21-1.fna&_nc_gid=c1LTFapg9krkzAyULtSYsw&_nc_ss=8&oh=00_AfxQeSSRmhU7wxOpmy4HKPpLsEChNZOFffQOiIpuJ2_bJg&oe=69AD78A8"
                   alt="Temotio"
                   className="w-full h-auto object-cover"
                 />
