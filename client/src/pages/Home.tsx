@@ -1,3 +1,4 @@
+import Img from '../pages/img.png';
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowRight, Instagram, Linkedin, Mail, Music, Zap } from "lucide-react";
@@ -147,11 +148,10 @@ export default function Home() {
                   onMouseEnter={() => setHoveredCard(idx)}
                   onMouseLeave={() => setHoveredCard(null)}
                 >
-                  <div className={`w-12 h-12 rounded-lg mb-4 flex items-center justify-center transition-all ${
-                    hoveredCard === idx
-                      ? "bg-orange-600 text-white"
-                      : "bg-orange-100 text-orange-600"
-                  }`}>
+                  <div className={`w-12 h-12 rounded-lg mb-4 flex items-center justify-center transition-all ${hoveredCard === idx
+                    ? "bg-orange-600 text-white"
+                    : "bg-orange-100 text-orange-600"
+                    }`}>
                     <feature.icon className="w-6 h-6" />
                   </div>
                   <h3 className="text-xl font-bold mb-2">{feature.title}</h3>
@@ -177,7 +177,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="relative group overflow-hidden rounded-xl">
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663357909245/TxrBZRuK2k3L64oYDUsoQ2/temotio_social_showcase-MgcygV2dJfMrMmbyxNELyu.webp"
+                src={Img}
                 alt="Content Showcase"
                 className="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300"
               />
